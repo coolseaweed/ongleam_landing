@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: rgb(138, 138, 138);
+  --background: rgb(255, 255, 255);
+  --primary: rgb(0, 0, 0);
+}
+
+body {
+  color: var(--foreground);
+}
+
+@layer base {
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.swiper-button-preview {
+  @apply bg-primary hover:bg-orange-300 h-[24px] p-4 rounded-full text-white  !important;
+}
+.swiper-button-preview:after {
+  font-size: 0.6rem !important;
+  font-weight: 900 !important;
+}
+#preview-carousel .swiper-button-prev {
+  @apply swiper-button-preview;
+}
+#preview-carousel .swiper-button-next {
+  @apply swiper-button-preview;
+}
+
+#preview-carousel .swiper-wrapper {
+  @apply px-8
+}

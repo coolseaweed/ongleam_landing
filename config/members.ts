@@ -1,0 +1,127 @@
+export const Members = {
+  leaders: [
+    {
+      name: "박용",
+      image: "/members/YongPark.png",
+      position: "CEO",
+      skill: ["UNIX", "Linux", "Windows", "Android", "iOS", "Web", "Firmware"],
+      career: [
+        "소프트웨어/펌웨어 설계 개발 (경력 25년)",
+        "(현) 휴스케일 대표이사 (업력 7년)",
+        "(현) 엠원소프트 CTO (겸직, 등기이사)",
+        "(전) 아크로메이트 팀장",
+        "(전) 네오위즈게임즈 팀장",
+        "(전) SK컴즈 네이트온 메신저 개발팀 차장",
+      ],
+    },
+    {
+      name: "장태석",
+      image: "/members/TaeseokJang.png",
+      position: "CPO",
+      skill: ["하드웨어", "펌웨어", "영상시스템", "시스템설계", "PCB 설계"],
+      career: [
+        "하드웨어/펌웨어 설계 개발 (경력 25년)",
+        "(현) 제이케이소프트 대표 (업력 5년)",
+        "(전) 삼성전자 개발용역 파트너",
+        "(전) 현대모비스 제품 개발 파트너",
+        "(전) Honda AVN시스템 개발 파트너",
+        "영상 시스템 전문가",
+      ],
+    },
+
+    {
+      name: "강경수",
+      image: "/members/GyeongsuKang.png",
+      position: "CTO",
+      skill: ["Hardware", "Circuit", "CNC컨트롤러", "Firmware", "CLang"],
+      career: [
+        "하드웨어/펌웨어 설계 개발 (경력 33년)",
+        "(현) 제이케이소프트 CTO (업력 5년)",
+        "(현) Ford Korea AVN 시스템 개발 파트너",
+        "(현) (주)팅크웨어 AVN 시스템 개발 파트너",
+        "(전) 삼성전자 개발용역 파트너",
+        "Smart Factory 전문가",
+      ],
+    },
+  ],
+
+  members: [
+    {
+      name: "정동욱",
+      image: "/members/DongukJung.png",
+      position: "SW 개발자",
+      skill: [
+        "Java",
+        "node.js",
+        "C#",
+        "Swift",
+        "React",
+        "Linux",
+        "Unix",
+        "Docker",
+      ],
+      career: [
+        "한그루 iOS 앱개발",
+        "시각장애인용 iOS앱개발",
+        "캐나다 POS 앱개발",
+        "캐나다 bigbangpos.com 개발",
+      ],
+    },
+    {
+      name: "정윤주",
+      image: "/members/YunjuJung.png",
+      position: "웹 개발자",
+      skill: ["Java", "node.js", "PHP"],
+      career: [
+        "한그루 ERP 개발",
+        "다몬미디어 관리 웹 개발",
+        "V비즈링 개발",
+        "영어 회화 능통",
+      ],
+    },
+    {
+      name: "김태형",
+      image: "/members/TaehyeongKim.png",
+      position: "웹/앱 개발자",
+      skill: ["Java/Kotlin", "PHP"],
+      career: [
+        "한그루 ERP 개발",
+        "시각장애인 스마트워치앱 개발",
+        "GPS 안드로이드앱 개발",
+        "캐나다 bigbangpos.com 개발",
+      ],
+    },
+    {
+      name: "최병철",
+      image: "/members/ByeongcheolChoi.png",
+      position: "웹/앱 개발자",
+      skill: ["Java/Kotlin"],
+      career: [
+        "한그루 안드로이드 앱 개발",
+        "시각장애인용 스마트워치앱 개발",
+        "발달장애인용 스마트워키앱 개발",
+        "GPS관리 웹서버 개발",
+      ],
+    },
+    {
+      name: "김수빈",
+      image: "/members/SubinKim.png",
+      position: "웹 개발자",
+      skill: ["Java", "React", "PHP"],
+      career: [
+        "한그루 ERP 개발",
+        "다몬미디어 관리 웹 개발",
+        "대구교원관리 웹 개발",
+        "V비즈링 개발",
+        "일본어 회화 능통",
+      ],
+    },
+    {
+      name: "이다영",
+      image: "/members/DayeongLee.png",
+      position: "웹 개발자",
+      skill: ["Java", "React", "PHP", "TypeScript", "웹퍼블리싱"],
+      career: ["한그루 ERP 개발", "다몬미디어 관리 웹 개발", "V비즈링 개발"],
+    },
+  ],
+};
